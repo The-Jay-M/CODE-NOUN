@@ -1,0 +1,7 @@
+print("Program to calculate the average of three numbers!")
+x= float(input("enter first number: "))
+y= float(input("enter second number: "))
+z= float(input("enter third number: "))
+avg= round(((x + y + z)/3), 2)
+print("\n\n")
+print ("Answer:", avg)

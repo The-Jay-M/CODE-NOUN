@@ -1,0 +1,50 @@
+#import the turtle module
+import turtle
+
+#write the code here
+#turtle.delay(100)
+#turtle.pensize(10)
+#turtle.color("black", "gold")
+#turtle.begin_fill()
+#turtle.circle(60)
+#turtle.end_fill()
+
+turtle.hideturtle()
+turtle.penup()
+turtle.setposition(-200, 200)
+turtle.pendown()
+turtle.pensize(10)
+turtle.color("lightblue", "grey")
+turtle.begin_fill()
+turtle.forward(400)
+turtle.right(90)
+turtle.forward(400)
+turtle.right(90)
+turtle.forward(400)
+turtle.right(90)
+turtle.forward(400)
+turtle.right(90)
+turtle.end_fill()
+turtle.penup()
+turtle.home()
+turtle.color("orange", "yellow")
+turtle.begin_fill()
+turtle.pensize(20)
+turtle.setposition(0, -80)
+turtle.pendown()
+turtle.circle(80)
+turtle.penup()
+turtle.setposition(0, -130)
+turtle.pendown()
+turtle.circle(130)
+turtle.penup()
+turtle.setposition(0, -180)
+turtle.pendown()
+turtle.circle(180)
+turtle.end_fill()
+turtle.hideturtle()
+
+
+
+#End the program loop
+turtle.done()
